@@ -28,6 +28,10 @@ RUN VsDevCmd.bat && `
    		/p:Platform=x64 `
         -flp1:logfile=errors.txt;errorsonly -flp2:logfile=warnings.txt;warningsonly
 WORKDIR c:/code/build/bin
+
+### Run the application
+# Provide a different RUN_APP_CACHE_KEY purge this layer's cache
+# Purging the cache will run the application every time we build
 ARG RUN_APP_CACHE_KEY=""
 ENV RUN_APP_CACHE_KEY=${RUN_APP_CACHE_KEY}
 RUN echo "Timestamp: %RUN_APP_CACHE_KEY%" && `
