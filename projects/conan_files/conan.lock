@@ -1,0 +1,25 @@
+{
+ "graph_lock": {
+  "nodes": {
+   "0": {
+    "options": "fmt:header_only=False\nfmt:shared=False\nfmt:with_fmt_alias=False\nfmt:with_os_api=True",
+    "requires": [
+     "1"
+    ],
+    "path": "conanfile.txt",
+    "context": "host"
+   },
+   "1": {
+    "ref": "fmt/8.1.1#b3e969f8561a85087bd0365c09bbf4fb",
+    "options": "header_only=False\nshared=False\nwith_fmt_alias=False\nwith_os_api=True",
+    "package_id": "2be90237c5e294c2f30bf6b043d047624b893db3",
+    "prev": "d83bf6c7c8d47c522d56de82b02c3b4b",
+    "context": "host"
+   }
+  },
+  "revisions_enabled": true
+ },
+ "version": "0.4",
+ "profile_host": "[settings]\narch=x86_64\nbuild_type=Release\ncompiler=Visual Studio\ncompiler.runtime=MD\ncompiler.version=16\nos=Windows\n[options]\n[build_requires]\n[env]\n",
+ "profile_build": "[settings]\narch=x86_64\nbuild_type=Release\ncompiler=Visual Studio\ncompiler.runtime=MD\ncompiler.version=16\nos=Windows\n[options]\n[build_requires]\n[env]\n"
+}

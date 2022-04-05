@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.10)
+project (docker_windows_cpp)
+
+set(CMAKE_CXX_STANDARD 11)
+
+# Included the conan build information
+include(${CMAKE_BINARY_DIR}/../conanbuildinfo.cmake)
+conan_basic_setup(TARGETS)
+
+# Add an executable
+add_executable(${PROJECT_NAME} main.cpp)
+
+# link CONAN_PKG:package_name targets
+target_link_libraries(${PROJECT_NAME}
+    PRIVATE
+        CONAN_PKG::fmt
+)

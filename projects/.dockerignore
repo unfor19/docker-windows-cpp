@@ -1,6 +1,5 @@
 .*
-!.*ignore*
 
 # conan ignore
-projects/conan_files/*.cmake
 conanbuildinfo.txt
+conan_files/*.cmake

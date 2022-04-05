@@ -1,0 +1,36 @@
+[settings]
+    arch=x86_64
+    build_type=Release
+    compiler=Visual Studio
+    compiler.runtime=MD
+    compiler.version=16
+    os=Windows
+
+[requires]
+    fmt/8.Y.Z
+
+[options]
+
+
+[full_settings]
+    arch=x86_64
+    build_type=Release
+    compiler=Visual Studio
+    compiler.runtime=MD
+    compiler.version=16
+    os=Windows
+
+[full_requires]
+    fmt/8.1.1:2be90237c5e294c2f30bf6b043d047624b893db3
+
+[full_options]
+    fmt:header_only=False
+    fmt:shared=False
+    fmt:with_fmt_alias=False
+    fmt:with_os_api=True
+
+[recipe_hash]
+
+
+[env]
+
