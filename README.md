@@ -1,6 +1,6 @@
 # docker-windows-cpp
 
-This project is based on this example - https://github.com/ttroy50/cmake-examples/tree/master/07-package-management/D-conan/ii-basic-targets
+Playing around with building a C++/CPP application in Docker on Windows.
 
 ## Requirements
 
