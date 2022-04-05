@@ -37,3 +37,11 @@ Playing around with building a C++/CPP application in Docker on Windows.
      - [MSVC](https://code.visualstudio.com/docs/cpp/config-msvc) 
      - [Conan](https://conan.io/) - package manager, like [chocolatey](https://chocolatey.org/), [pip](https://pypi.org/project/pip/), [npm](https://www.npmjs.com/), [brew](https://brew.sh/), etc.
   2. [Dockerfile.app](Dockerfile.app)
+
+## Authors
+
+Created and maintained by [Meir Gabay](https://github.com/unfor19)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/unfor19/docker-windows-cpp/blob/master/LICENSE) file for details
